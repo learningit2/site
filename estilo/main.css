@@ -1,0 +1,77 @@
+body{
+    background-color: #113;
+    overflow-x: hidden;
+    margin: 0px;
+}
+.videodiv{
+    background-image: url("../imagens/divvideobackground.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    width: 100vw;
+    height: 20vw;
+    text-align: center;
+    padding: 1vw;
+}
+#divvideo{
+    width: 30vw;
+    height: 15vw;
+    overflow:hidden;
+    border: 0.3vw outset rgb(10, 180, 19);
+}
+#divvideobutton{
+    display: block;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5vw;
+    width: 30vw;
+    height: 2.5vw;
+    border-radius: 10vw;
+    background-image: linear-gradient(rgb(10, 180, 19) 60%, #000 100%);
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+    transition-duration: 0.5s;
+}
+#divvideobutton:hover{
+    height: 3vw;
+    width: 31vw;
+    transition-duration: 0.5s;
+}
+.informacao{
+    width: 50vw;
+    height: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1vw;
+}
+.informacao a{
+    color: rgb(10, 180, 19);
+}
+#bobesponja{
+    width: 12vw;
+    margin-left: 3vw;
+    float: left;
+}
+
+@media screen and (max-width: 1000px) {
+    .videodiv{
+        width: 100vw;
+        height: 40vw;
+    }
+    #divvideo{
+        width: 50vw;
+        height: 30vw;
+        overflow:hidden;
+        border: 0.3vw outset rgb(10, 180, 19);
+    }
+    #divvideobutton{
+        width: 55vw;
+        height: 6vw;
+    }
+}
