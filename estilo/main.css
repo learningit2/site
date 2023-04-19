@@ -54,18 +54,14 @@ body{
     float: left;
 }
 
-@media screen and (min-width: 1001px) {
-    #divvideobutton{
-        transition-duration: 0.5s;
-    }
+@media screen and (min-width: 1301px) {
     #divvideobutton:hover{
-        height: 3vw;
-        width: 31vw;
+        background-image: linear-gradient(rgb(5, 125, 11) 60%, #000 100%);
         transition-duration: 0.5s;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     .videodiv{
         width: 100vw;
         height: 70vw;
