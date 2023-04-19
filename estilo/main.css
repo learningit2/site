@@ -32,13 +32,8 @@ body{
     color: white;
     text-align: center;
     font-size: 1.5vw;
-    transition-duration: 0.5s;
 }
-#divvideobutton:hover{
-    height: 3vw;
-    width: 31vw;
-    transition-duration: 0.5s;
-}
+
 .informacao{
     width: 50vw;
     height: 20vw;
@@ -59,19 +54,40 @@ body{
     float: left;
 }
 
+@media screen and (min-width: 1001px) {
+    #divvideobutton{
+        transition-duration: 0.5s;
+    }
+    #divvideobutton:hover{
+        height: 3vw;
+        width: 31vw;
+        transition-duration: 0.5s;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .videodiv{
         width: 100vw;
-        height: 40vw;
+        height: 70vw;
     }
     #divvideo{
-        width: 50vw;
-        height: 30vw;
+        width: 75vw;
+        height: 55vw;
         overflow:hidden;
         border: 0.3vw outset rgb(10, 180, 19);
+        margin-top: 2vw;
     }
     #divvideobutton{
-        width: 55vw;
-        height: 6vw;
+        width: 65vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+    .informacao{
+        width: 70vw;
+        height: 40vw;
+        font-size: 2.5vw;
+    }
+    #bobesponja{
+        width: 20vw;
     }
 }
