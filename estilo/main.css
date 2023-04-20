@@ -61,6 +61,7 @@ body{
     width: 100vw;
     height: 55vw;
     padding-top: 0.1vw;
+    padding-bottom: 0px;
 }
 
 #ftitle{
@@ -91,6 +92,7 @@ body{
     color: white;
     display:block;
     font-weight: bold;
+    font-size: 1vw;
 }
 .fornecedor_imagem{
     width: 8vw;
@@ -112,6 +114,12 @@ body{
     font-weight: bold;
     width: 50vw;
 }
+#texto_final{
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+}
+
 @media screen and (min-width: 1301px) {
     #divvideobutton:hover{
         background-image: linear-gradient(rgb(5, 125, 11) 60%, #000 100%);
@@ -122,8 +130,6 @@ body{
         transition-duration: 0.5s;
     }
 }
-
-
 @media screen and (max-width: 1300px) {
     .videodiv{
         width: 100vw;
@@ -148,5 +154,37 @@ body{
     }
     #bobesponja{
         width: 20vw;
+    }
+
+    .fornecedores{
+        height: 100vw;
+        width: 100vw;
+    }
+    #ftitle{
+        font-size: 4vw;
+    }
+    .fornecedor p{
+        font-size: 1vw;
+    }
+    #f_descricao{
+        font-size: 2vw;
+    }
+    .fornecedor button{
+        height: 4vw;
+        width: 15vw;
+        font-size: 2vw;
+    }
+    .fornecedor_imagem{
+        width: 12vw;
+    }
+    .grid_fornecedores{
+        grid-template-columns: 35% 35% 35% 35%;
+        grid-template-rows: 27% 27% 27% 27%;
+    }
+    .fornecedor p{
+        font-size: 1.5vw;
+    }
+    #texto_final{
+        font-size: 2vw;
     }
 }
