@@ -176,7 +176,7 @@ body{
         width: 17vw;
     }
     .grid_fornecedores{
-        grid-template-columns: 42% 42% 42% 42%;
+        grid-template-columns: 45% 45% 45% 45%;
         grid-template-rows: 27% 27% 27% 27%;
     }
     .fornecedor p{
