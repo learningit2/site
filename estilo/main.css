@@ -56,18 +56,50 @@ body{
 }
 
 .fornecedores{
-    border: 1px solid red;
-    background: -webkit-linear-gradient(rgb(16, 234, 27), #eaeaea);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-color: #112;
+    width: 100vw;
+    height: 50vw;
 }
 
+#ftitle{
+    color: rgb(12, 218, 22);
+    text-align: center;
+    font-size: 2vw;
+}
+
+.grid_fornecedores{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 35% 35% 35% 35%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 90%;
+}
+
+.fornecedor{
+    width: max-content;
+    height: max-content;
+    text-align: center;
+}
+.fornecedor p{
+    color: white;
+    display:block;
+    
+}
+.fornecedor_imagem{
+    width: 8vw;
+}
 @media screen and (min-width: 1301px) {
     #divvideobutton:hover{
         background-image: linear-gradient(rgb(5, 125, 11) 60%, #000 100%);
         transition-duration: 0.5s;
     }
 }
+
 
 @media screen and (max-width: 1300px) {
     .videodiv{
