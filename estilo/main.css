@@ -59,7 +59,8 @@ body{
 .fornecedores{
     background-color: #112;
     width: 100vw;
-    height: 50vw;
+    height: 55vw;
+    padding-top: 0.1vw;
 }
 
 #ftitle{
@@ -71,7 +72,7 @@ body{
 .grid_fornecedores{
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 35% 35% 35% 35%;
+    grid-template-rows: 30% 30% 30% 30%;
     grid-column-start: 1;
     grid-column-end: 5;
     justify-content: center;
@@ -89,14 +90,35 @@ body{
 .fornecedor p{
     color: white;
     display:block;
-    
+    font-weight: bold;
 }
 .fornecedor_imagem{
     width: 8vw;
 }
+
+.fornecedor button{
+    width: 8vw;
+    height: 2vw;
+    border-radius: 1vw;
+    background-color: rgb(10, 180, 19);
+    color: white;
+}
+#f_descricao{
+    margin: auto;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: bold;
+    width: 50vw;
+}
 @media screen and (min-width: 1301px) {
     #divvideobutton:hover{
         background-image: linear-gradient(rgb(5, 125, 11) 60%, #000 100%);
+        transition-duration: 0.5s;
+    }
+    .fornecedor button:hover{
+        background-color: rgb(10, 143, 17);
         transition-duration: 0.5s;
     }
 }
