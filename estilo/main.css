@@ -158,34 +158,31 @@ body{
     }
 
     .fornecedores{
-        height: 100vw;
+        height: 140vw;
     }
     #ftitle{
         font-size: 4vw;
     }
-    .fornecedor p{
-        font-size: 1vw;
-    }
     #f_descricao{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .fornecedor button{
-        height: 4vw;
-        width: 15vw;
-        font-size: 2vw;
+        height: 6vw;
+        width: 19vw;
+        font-size: 3vw;
         border-radius: 2vw;
     }
     .fornecedor_imagem{
-        width: 12vw;
+        width: 17vw;
     }
     .grid_fornecedores{
-        grid-template-columns: 35% 35% 35% 35%;
+        grid-template-columns: 42% 42% 42% 42%;
         grid-template-rows: 27% 27% 27% 27%;
     }
     .fornecedor p{
-        font-size: 1.5vw;
+        font-size: 2.5vw;
     }
     #texto_final{
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 }
