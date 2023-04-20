@@ -27,11 +27,12 @@ body{
     margin-top: 1.5vw;
     width: 30vw;
     height: 2.5vw;
-    border-radius: 10vw;
+    border-radius: 1vw;
     background-image: linear-gradient(rgb(10, 180, 19) 60%, #000 100%);
     color: white;
     text-align: center;
     font-size: 1.5vw;
+    border: 1px solid black;
 }
 
 .informacao{
